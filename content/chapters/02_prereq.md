@@ -47,6 +47,8 @@ weight: 999
 4. Then press the buttun with tree dots on the right "...". Locate the place on your computer where you stored this 
    python project. Choose the `<your path>/ide_workshop/.venv/bin/python3.10` file. Press OK. 
 5. Nå skal du kunne kjøre koden ved å trykke den grønne "play" knappen i `main.py` 🤞
+6. Nice! Da er du klar for workshop!
+
 
 ## Problemer? 🤨
 

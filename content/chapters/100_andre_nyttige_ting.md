@@ -30,4 +30,6 @@ Docker applikasjoner.
 
 **Terraform:** ...
 
+**Meldingskø / topic / queue:** ...
+
 
