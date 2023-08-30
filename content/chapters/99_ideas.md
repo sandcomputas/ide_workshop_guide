@@ -19,8 +19,13 @@ generelle ide ting:
   - shelf / stash
   - 
 
+- CI/CD
+  - Vise dette med guide prosjektet i stedet for at de deployer en applikasjon - blir litt voldsomt på så kort tid. 
 
-
+- Andre ting:
+  - Mocking
+  - Dependecy injection 
+  - Rule of 8s
 
 
 # Ide til tema

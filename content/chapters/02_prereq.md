@@ -14,7 +14,7 @@ weight: 999
 
   - Vi anbefaler å installere JetBrains Toolbox: https://www.jetbrains.com/toolbox-app/ og bruke denne til å installere PyCharm. Det gjør det lettere å håndtere ulike installasjoner av JetBrains programmer.
 
-- Sjekk at dere har Python 3 (helst 3.11) installert. Hvis nei, installer.
+- Sjekk at dere har Python 3 (helst minst 3.10) installert. Hvis nei, installer.
 
 - Installere Poetry (package manager for Python).
 
@@ -23,8 +23,11 @@ weight: 999
     - macOS / Linux / WSL: `curl -sSL https://install.python-poetry.org | python3 -`
     - Windows (Powershell): `(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -`
     - If all else fails: https://python-poetry.org/docs/
-  - Etter installasjon, legg `export PATH="/Users/<your username>/.local/bin:$PATH"` til i din shell configurasjon 
-    fil. For mac/linux: `.bashrc` / `.zshrc`.
+  - Etter installasjon:
+    - Mac/Linux: legg `export PATH="/Users/<your username>/.local/bin:$PATH"` til i din shell configurasjon 
+      fil. For mac/linux: `.bashrc` / `.zshrc`.
+    - Windows: idk 🤷‍(burde stå skrevet i terminalen rett etter dere har installert)
+  
 
 - Konfigurer Poetry ❗❗️❗️️:
 
@@ -41,6 +44,7 @@ weight: 999
 3. In the pop-up, select "Poetry Environment" from the left side-bar -> choose "Existing environment".
 4. Then press the buttun with tree dots on the right "...". Locate the place on your computer where you stored this 
    python project. Choose the `<your path>/ide_workshop/.venv/bin/python3.10` file. Press OK. 
+5. Nå skal du kunne kjøre koden ved å trykke den grønne "play" knappen i `main.py` 🤞
 
 ## Problemer? 🤨
 
