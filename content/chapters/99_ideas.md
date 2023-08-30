@@ -4,12 +4,19 @@ title: Ideas
 
 ---
 
+generelle ide ting:
+    - Auto import
+    - Auto format
+    - Optimize imports
+    - scratch files
 
-- Auto import
-- Auto format
-- Optimize imports
 
-
+- hvordan bruke git i idea
+  - commit
+  - resolve conflicts
+  - mer Kristian JetBrains sjef? 
+  - shelf / stash
+  - 
 
 
 
