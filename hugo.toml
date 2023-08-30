@@ -42,7 +42,7 @@ paginate     = 10
 
     [languages.en.params.logo]
       logoText = "Computas"
-      logoHomeLink = "/"
+      logoHomeLink = "/ide_workshop_guide"
     # or
     #
     # path = "/img/your-example-logo.svg"
