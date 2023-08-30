@@ -33,7 +33,7 @@ weight: 999
 
   - Kjør: `poetry config virtualenvs.in-project true` i terminalen.
  
-- Clone Github-repo: (==LINK KOMMER==)
+- Clone Github-repo: https://github.com/sandcomputas/ide_workshop
 
 
 ## Kjøre koden 👩‍💻
