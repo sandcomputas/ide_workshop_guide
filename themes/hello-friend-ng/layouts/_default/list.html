@@ -1,6 +1,6 @@
 {{ define "main" }}
     {{ $paginator := .Paginate .Data.Pages }}
-    
+
     <main class="posts">
         <h1>{{ .Title }}</h1>
 
@@ -10,7 +10,7 @@
 
         {{ range $paginator.Pages.GroupByDate "2006" }}
             <div class="posts-group">
-                <div class="post-year">{{ .Key }}</div>
+                <div class="post-year"></div>
 
                 <ul class="posts-list">
                     {{ range .Pages }}
@@ -18,11 +18,6 @@
                             <a href="{{.Permalink}}" class="post-item-inner">
                                 <span class="post-title">{{.Title}}</span>
                                 <span class="post-day">
-                                    {{ if .Site.Params.dateformShort }}
-                                        {{ .Date.Format .Site.Params.dateformShort }}
-                                    {{ else }}
-                                        {{ .Date.Format "Jan 2"}}
-                                    {{ end }}
                                 </span>
                             </a>
                         </li>

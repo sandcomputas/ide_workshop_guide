@@ -9,6 +9,7 @@ generelle ide ting:
     - Auto format
     - Optimize imports
     - scratch files
+    - compare two files / folders 
 
 
 - hvordan bruke git i idea
