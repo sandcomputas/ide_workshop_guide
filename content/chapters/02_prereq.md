@@ -8,7 +8,7 @@ weight: 999
 
 ![Test](/toolbox_illustration.png)
 
-## Ting å installere: 💾
+## Ting å installere 💾
 
 *Nå er det snart tid for første NXT-dag!* **Før** NXT dagen 8. september er det fint om dere har følgende på plass:
 
@@ -28,14 +28,14 @@ weight: 999
   - Etter installasjon:
     - Mac/Linux: legg `export PATH="/Users/<your username>/.local/bin:$PATH"` til i din shell configurasjon 
       fil. For mac/linux: `.bashrc` / `.zshrc`.
-    - Windows: idk 🤷‍(burde stå skrevet i terminalen rett etter dere har installert)
+    - Windows: idk 🤷‍ (burde stå skrevet i terminalen rett etter dere har installert)
   
 
 - Konfigurer Poetry ❗❗️❗️️:
 
   - Kjør: `poetry config virtualenvs.in-project true` i terminalen.
  
-- Clone Github-repo: https://github.com/sandcomputas/ide_workshop
+- Clone Github-repo: https://github.com/sandcomputas/ide_workshop  🌐
 
 
 ## Kjøre koden 👩‍💻
