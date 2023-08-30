@@ -1,20 +1,21 @@
 ---
-title: Ideas
+title: Ideas 🧐💭
 
 
 ---
 
-> *just for planning*
+> *just for planning...*
 
 
-generelle ide ting:
-    - Auto import
-    - Auto format
-    - Optimize imports
-    - scratch files
-    - compare two files / folders 
-    - Move files (bruke eksempel (flytte resource tilbake til main og vise hvordan vi kan flytte den til resource.py))
-    - Rename variables / classes / functions
+
+Generelle IDE ting:
+- Auto import
+- Auto format
+- Optimize imports
+- scratch files
+- compare two files / folders 
+- Move files (bruke eksempel (flytte resource tilbake til main og vise hvordan vi kan flytte den til resource.py))
+- Rename variables / classes / functions
 
 - hvordan bruke git i idea
   - commit
