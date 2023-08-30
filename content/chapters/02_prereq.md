@@ -8,6 +8,8 @@ weight: 999
 
 ![Test](/toolbox_illustration.png)
 
+## Ting å installere: 💾
+
 *Nå er det snart tid for første NXT-dag!* **Før** NXT dagen 8. september er det fint om dere har følgende på plass:
 
 - PyCharm Community Edition installert.
