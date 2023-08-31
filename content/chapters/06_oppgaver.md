@@ -1,7 +1,7 @@
 ---
 title: Oppgaver
 #toc: true
-weight: 996
+weight: 995
 ---
 
 > _Her er noen oppgaver for å øve seg på ulike verktøy i PyCharm._

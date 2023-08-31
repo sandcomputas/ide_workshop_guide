@@ -1,6 +1,6 @@
 ---
 title: Ideas 🧐💭
-
+weight: 10
 
 ---
 
@@ -40,4 +40,11 @@ Generelle IDE ting:
 - Kalender / is-pause konstant
 
 
+
+
+# TODO:
+- [ ] Prøve å få kontakt med et åpent api (skrive en konnektor) 
+- [ ] Lage en service som looper igjennom mye data (finne en spesifikk idrettsutøvers/aksje/lag/team's resultater 
+  elns) -  fin for conditional breakpoint
+- [ ] 
 
