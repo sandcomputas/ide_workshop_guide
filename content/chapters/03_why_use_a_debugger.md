@@ -38,7 +38,7 @@ class AuthMiddleware:
         print(f"{request.headers}")
         print(self.auth)
         if not self.auth:
-            self.auth = assemble(Authorizer)
+            self.auth = create(Authorizer)
         profile = self.profile(request)
         if request.user.is_anonym():
             print("Det ble true her")
@@ -52,7 +52,7 @@ class AuthMiddleware:
         def user() -> User:
             return request.user
 
-        factory(profiles=[profile])(user)
+        add_factory(profiles=[profile])(user)
 
         print(f"{get_factories()}")
 
