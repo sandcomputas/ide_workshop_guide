@@ -15,6 +15,11 @@ weight: 995
 
 ## Drafts
 
+### Calculator 
+
+Fix bugs... mer kommer her 
+
+
 ### NASA Near Earth Asteriods feed API
 
 > *Fix the test!*
