@@ -37,6 +37,7 @@ weight: 999
  
 - Clone Github-repo: https://github.com/sandcomputas/ide_workshop  🌐
 
+- Installer [Postman](https://www.postman.com/downloads/) 📩, eller et annet program du liker for å sende web-requests. 
 
 ## Kjøre koden 👩‍💻
 

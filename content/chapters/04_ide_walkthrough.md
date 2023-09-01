@@ -8,18 +8,20 @@ weight: 997
  
 
 - IDE refactoring tools
+  - *TODO* `// TODO: Her må det virkelig gjøres noe` `høyre meny`
+    - Nyttig når man sitter og jobber og ser noe du må endre på et tidspunkt, eller når man starter på en oppgave og 
+      må gjøre litt "research", enkelt å fjerne i ettertid.
   - *Go to* definition / usages `cmd + b / scroll click`
   - *Generate...* test 
   - *Rename* - variable / function / class `shift + F6`
   - *Move* - / function / class `?`
   - *Move file into folder and auto refactor.* 
+  - *Optimize imports* `ctrl + option + o`
+  - *Format file* `option + cmd + l`
   - *Create* - function / class `alt/option + enter og velg create ...` 
   - *Navigate* to editor and Create file `F1`
   - *Finne klasser / functioner* `cmd + (shift) + o`
   - Statisk kode analyse (?)
-  - *TODO* `// TODO: Her må det virkelig gjøres noe` `høyre meny`
-    - Nyttig når man sitter og jobber og ser noe du må endre på et tidspunkt, eller når man starter på en oppgave og 
-      må gjøre litt "research", enkelt å fjerne i ettertid.
 
 - Git tools:
   - Git blame 🙈
@@ -29,7 +31,9 @@ weight: 997
 
 - Plugins:
   - Databaser / s3 / osv. (betalt versjon - se Intellij Ultimate)
-  
+
+- Scratch files (to, f.example prettify json)
+
 - Debugging:
   1. Starte applikasjon i debug mode 
   2. (Legge til environment variabler i run-config)
