@@ -23,6 +23,10 @@ Bør kanskje starte med a debugge unit tests - er kanskje endel enklere en resou
 
 Fix bugs... mer kommer her 
 
+### Calculator 2 
+
+Litt mer avansert bug kanskje. Vi legger aldri verdien til i cache? Må kanskje være en enhets test og ikke en 
+resource. Eller vi kan ha en methode som henter ut hele cahcen også? 
 
 ### NASA Near Earth Asteriods feed API
 

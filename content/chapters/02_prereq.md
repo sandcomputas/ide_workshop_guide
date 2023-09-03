@@ -41,14 +41,15 @@ weight: 999
 
 ## Kjøre koden 👩‍💻
 
-1. Gå til `app/main.py`. 
-2. Øverst i editoren vil det dukke opp en gul linje med en ⚠️som sier at "No Python interpreter configured for the 
+1. Gå til prosjektet i terminalen og kjør: `poetry install`
+2. Gå til `app/main.py`. 
+3. Øverst i editoren vil det dukke opp en gul linje med en ⚠️som sier at "No Python interpreter configured for the 
    project". Trykk på "Configure Python Interpreter" -> "Add new interpreter" -> "Add local interpreter".
-3. In the pop-up, select "Poetry Environment" from the left side-bar -> choose "Existing environment".
-4. Then press the buttun with tree dots on the right "...". Locate the place on your computer where you stored this 
+4. In the pop-up, select "Poetry Environment" from the left side-bar -> choose "Existing environment".
+5. Then press the buttun with tree dots on the right "...". Locate the place on your computer where you stored this 
    python project. Choose the `<your path>/ide_workshop/.venv/bin/python3.10` file. Press OK. 
-5. Nå skal du kunne kjøre koden ved å trykke den grønne "play" knappen i `main.py` 🤞
-6. Nice! Da er du klar for workshop!
+6. Nå skal du kunne kjøre koden ved å trykke den grønne "play" knappen i `main.py` 🤞
+7. Nice! Da er du klar for workshop!
 
 
 ## Problemer? 🤨

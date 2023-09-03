@@ -46,5 +46,6 @@ Generelle IDE ting:
 - [ ] Prøve å få kontakt med et åpent api (skrive en konnektor) 
 - [ ] Lage en service som looper igjennom mye data (finne en spesifikk idrettsutøvers/aksje/lag/team's resultater 
   elns) -  fin for conditional breakpoint
-- [ ] 
+- [ ] Lage oppgavene
+- [ ] Finne ut hvordan vi skal kunne vise at Intellij gjør statis kode analyse 
 

@@ -49,5 +49,11 @@ weight: 997
     8. Teste å kjøre kode `option + F8`
     9. Kjøre kode i console
 
+Hotkeys for debugging:
+
+| Operation             | Hotkey             |
+|-----------------------|--------------------|
+| Set/remove breakpoint | `cmd + F8`         |
+| See all breakpoints   | `shift + cmd + F8` |
 
 - Mulighet for å opprette nytt prosjekt fra Intellij / PyCharm.
