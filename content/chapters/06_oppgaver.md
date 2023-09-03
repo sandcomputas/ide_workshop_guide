@@ -15,6 +15,10 @@ weight: 995
 
 ## Drafts
 
+### Struktur på oppgave del 
+
+Bør kanskje starte med a debugge unit tests - er kanskje endel enklere en resource tests?
+
 ### Calculator 
 
 Fix bugs... mer kommer her 
