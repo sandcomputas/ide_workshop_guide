@@ -32,6 +32,7 @@ weight: 997
     - Compare branch / revision
     - Commit
     - Bytte branch
+    - Resolve merge conflicts 
 
 - Plugins:
     - Databaser / s3 / osv. (betalt versjon - se Intellij Ultimate)
