@@ -48,4 +48,6 @@ Generelle IDE ting:
   elns) -  fin for conditional breakpoint
 - [ ] Lage oppgavene
 - [ ] Finne ut hvordan vi skal kunne vise at Intellij gjør statis kode analyse 
+- [ ] Hva med å ha **hotkey-quiz?** Kahoot med hotkeys? 
+- [ ] Skal vi ha frontend for kalkulator appen? Kanskje ja?  
 

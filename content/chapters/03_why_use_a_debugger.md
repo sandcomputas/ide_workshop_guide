@@ -1,22 +1,26 @@
 ---
-title: Debugger -> What, why, how? 🪲
+title: Debugger -> Hva, Hvorfor, Hvordan? 🪲
 #toc: true
 weight: 998
 ---
 
-## What is a debugger?
+## Hva er en debugger?
 
 **Google:** *a computer program that assists in the detection and correction of errors in other computer programs*
 
 
-## Why use a debugger? 
+## Hvorfor bruke en debugger? 
 
-What is wrong with `system.out.println("Her er jeg nå")`?
+Hva er galt med `system.out.println("Her er jeg nå")`?
 
-- You have to clean up a lot of mess when you are done.
-- When using `print()` probably have to run your code *very* many times to inspect different variables.
-- You cannot run code snippets to see the effect - without actually adding it to your codebase. 
-- It is easier to see the flow of your application (a lot of business applications are complex and not particularly linear.)
+- Du må rydde opp mye rot når du er ferdig.
+- Når du bruker `print()` må du antakelig kjøre koden din *veldig* mange ganger for å sjekke ut verdien på ulike 
+  variabler. 
+- Med en debugger kan se tilstanden til variabler.
+- Du kan ikke kjøre kode snutter for å se hvordan de fungerer - uten å faktisk legge de til i kodebasen (mer rot).
+- Debuggeren gjør det lettere å se flyten til applikasjonen (business apps er komplekse og ikke alltid lineære.)
+
+## Eksempler 
 
 ```python
 async def save_datasett(self, datasett: Datasett) -> Datasett:
@@ -60,7 +64,7 @@ class AuthMiddleware:
         print("Yes! Vi kom igjennom hele!")
 ```
 
-## How?
+## Hvordan?
 
 To be continued...
 

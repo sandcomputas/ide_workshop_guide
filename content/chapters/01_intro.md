@@ -3,27 +3,30 @@ title: Introduction
 weight: 1000
 ---
 
-## The Software Developer's Toolbox
+## Utviklerens verktøykasse
 
-As a software developer there are a lot of useful tools that will make your lives easier and your code better. In this workshop we will take a look at some of the tools and tricks we find most helpful in our IDE. IDE's are different, but all of the most popular ones will have most of the tools we will cover here. We prefer the IDEs developed by JetBrains, they look quite similar, but have specific editors depending on the language/framework you are dealing with:
+Som utvikler er det mange nyttige verktøy som kan bidra til å gjøre hverdagen enklere og koden du skriver bedre. I 
+denne workshoppen skal vi se på noen verktøy og triks som vi syntes er veldig nyttige i IDEen. IDEer er forskjellige,
+men alle de mest populære editorene vil ha de fleste verktøyene vi skal dekke her. Selv foretrekker vi IDEs laget av 
+JetBrains, de ser stort sett ganske like ut, men de har utviklet spesifikke IDEs for ulike programmeringsspråk og 
+rammeverk. Noen av de mest populære er:
 
 - PyCharm - Python
-- Intellij - mainly for Java, but support other languages as well.
+- Intellij - hovedsaklig for Java, men finnes plugins for andre språk også. 
 - Webstrom - Javascript / HTML / CSS
 - Rider - .NET
-- ... and many more
+- ... og mange flere
 
-## What we will cover
+## Innhold
 
-- IDE refactoring tools
+- IDE refactoring tools og hotkeys
 - Debugger
   - Why use a debugger?
   - General tools
   - Breakpoints
-  - Conditional breakpoints
   - Step over / step-into 
 - Database integration
-- Other plug-ins? (s3)
+- Other plug-ins (s3)
 - Mocking / testing
 
 ## Schedule

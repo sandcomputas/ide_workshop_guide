@@ -35,21 +35,36 @@ weight: 999
 
   - Kjør: `poetry config virtualenvs.in-project true` i terminalen.
  
-- Clone Github-repo: https://github.com/sandcomputas/ide_workshop  🌐
-
-- Installer [Postman](https://www.postman.com/downloads/) 📩, eller et annet program du liker for å sende web-requests. 
-
+  
 ## Kjøre koden 👩‍💻
 
-1. Gå til prosjektet i terminalen og kjør: `poetry install`
-2. Gå til `app/main.py`. 
-3. Øverst i editoren vil det dukke opp en gul linje med en ⚠️som sier at "No Python interpreter configured for the 
-   project". Trykk på "Configure Python Interpreter" -> "Add new interpreter" -> "Add local interpreter".
-4. In the pop-up, select "Poetry Environment" from the left side-bar -> choose "Existing environment".
-5. Then press the buttun with tree dots on the right "...". Locate the place on your computer where you stored this 
-   python project. Choose the `<your path>/ide_workshop/.venv/bin/python3.10` file. Press OK. 
+> Her er det to muligheter. Prøv den første først, hvis ikke det fungerer, prøv den andre.
+
+### Clone via PyCharm 
+
+1. Åpne PyCharm
+2. Øverst til høyre i det lille vinduet som dukker opp står det "Get from VCS"
+3. Lim inn urlen til Github repoet https://github.com/sandcomputas/ide_workshop
+4. Trykk "clone"
+5. Nå skal PyCharm klare å konfigurere prosjektet selv - vent med å gjøre noe til loading baren nederst i høyre 
+   hjørne er ferdig å spinne. 
 6. Nå skal du kunne kjøre koden ved å trykke den grønne "play" knappen i `main.py` 🤞
+   7. Du vil sannsynligvis få en feilmelding som sier: `Please add api key for NASA to configuration 
+      (IDE_WORKSHOP__NASA_KEY)`. Det er sånn det skal være :) 
 7. Nice! Da er du klar for workshop!
+
+### Manuell cloning og installering
+
+1. Clone repoet: https://github.com/sandcomputas/ide_workshop
+2. Gå til prosjektet i terminalen og kjør: `poetry install`
+3. Gå til `app/main.py`. 
+4. Øverst i editoren vil det dukke opp en gul linje med en ⚠️som sier at "No Python interpreter configured for the 
+   project". Trykk på "Configure Python Interpreter" -> "Add new interpreter" -> "Add local interpreter".
+5. I pop-up-vinduet, velg "Poetry Environment" fra venstre side meny -> velg "Existing environment".
+6. Trykk så på knappen med tre prikker (...) på høyre side. Finn stedet du har lagret prosjektet på maskinen din. 
+   Velg filen som ligger på `<your path>/ide_workshop/.venv/bin/python3.10`. Klikk "OK". 
+7. Nå skal du kunne kjøre koden ved å trykke den grønne "play" knappen i `main.py` 🤞
+8. Nice! Da er du klar for workshop!
 
 
 ## Problemer? 🤨
