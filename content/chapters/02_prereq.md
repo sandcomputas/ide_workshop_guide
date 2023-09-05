@@ -6,7 +6,6 @@ weight: 999
 
 > Denne NXT-dagen blir det en workshop som handler om utviklingsverktøy. Vi vil benytte Python for å holde ting enkelt - slik at fokus blir på verktøy og ikke språk. 
 
-![Test](/toolbox_illustration.png)
 
 ## Ting å installere 💾
 
