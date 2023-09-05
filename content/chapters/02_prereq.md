@@ -15,7 +15,7 @@ weight: 999
 
   - Vi anbefaler å installere JetBrains Toolbox: https://www.jetbrains.com/toolbox-app/ og bruke denne til å installere PyCharm. Det gjør det lettere å håndtere ulike installasjoner av JetBrains programmer.
 
-- Sjekk at dere har Python 3 (helst minst 3.10) installert. Hvis nei, installer.
+- Sjekk at dere har Python 3 (helst minst 3.10) installert (`python3 --version`). Hvis nei, installer. 
 
 - Installere Poetry (package manager for Python).
 
