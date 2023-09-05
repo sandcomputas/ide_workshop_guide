@@ -40,8 +40,6 @@ Generelle IDE ting:
 - Kalender / is-pause konstant
 
 
-
-
 # TODO:
 - [ ] Prøve å få kontakt med et åpent api (skrive en konnektor) 
 - [ ] Lage en service som looper igjennom mye data (finne en spesifikk idrettsutøvers/aksje/lag/team's resultater 
@@ -50,4 +48,6 @@ Generelle IDE ting:
 - [ ] Finne ut hvordan vi skal kunne vise at Intellij gjør statis kode analyse 
 - [ ] Hva med å ha **hotkey-quiz?** Kahoot med hotkeys? 
 - [ ] Skal vi ha frontend for kalkulator appen? Kanskje ja?  
+- [ ] Snakke litt om hvordan man kan bruke tester til å utvikle (noen ganger er det veldig klønete å kjøre opp hele 
+  prosjektet hele tiden)
 

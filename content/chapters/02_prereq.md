@@ -48,7 +48,7 @@ weight: 999
 5. Nå skal PyCharm klare å konfigurere prosjektet selv - vent med å gjøre noe til loading baren nederst i høyre 
    hjørne er ferdig å spinne. 
 6. Nå skal du kunne kjøre koden ved å trykke den grønne "play" knappen i `main.py` 🤞
-   7. Du vil sannsynligvis få en feilmelding som sier: `Please add api key for NASA to configuration 
+   1. Du vil sannsynligvis få en feilmelding som sier: `Please add api key for NASA to configuration 
       (IDE_WORKSHOP__NASA_KEY)`. Det er sånn det skal være :) 
 7. Nice! Da er du klar for workshop!
 
@@ -63,6 +63,8 @@ weight: 999
 6. Trykk så på knappen med tre prikker (...) på høyre side. Finn stedet du har lagret prosjektet på maskinen din. 
    Velg filen som ligger på `<your path>/ide_workshop/.venv/bin/python3.10`. Klikk "OK". 
 7. Nå skal du kunne kjøre koden ved å trykke den grønne "play" knappen i `main.py` 🤞
+   1. Du vil sannsynligvis få en feilmelding som sier: `Please add api key for NASA to configuration 
+      (IDE_WORKSHOP__NASA_KEY)`. Det er sånn det skal være :) 
 8. Nice! Da er du klar for workshop!
 
 
