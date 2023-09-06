@@ -12,6 +12,8 @@ weight: 997
 |---------------------------------------------------|---------------------------------------------------------|-----------------|
 | *TODO* (nyttig som "notat-verktøy" i koden)       | `I venstre meny`                                        |                 |
 | *Søk*                                             | `shift shift`                                           |                 |
+| *Finne klasser / files*                           | `cmd + (shift) + o`                                     |                 |
+| *Find (text) in files*                            | `shift + cmd + f`                                       |                 |
 | *Go to* definition / usages                       | `cmd + b / scroll click`                                |                 |
 | *Go back and forth*                               | `option + cmd + høyre/venstre pil` / `mus frem/tilbake` |                 |
 | *Rename* - variable / function / class            | `shift + F6`                                            |                 |
@@ -20,12 +22,10 @@ weight: 997
 | *Optimize imports*                                | `ctrl + option + o`                                     |                 |
 | *Format file / prettify*                          | `option + cmd + l`                                      |                 |
 | *Context Actions*                                 | `option + enter`                                        |                 |
-| *Find (text) in files*                            | `shift + cmd + f`                                       |                 |
 | -> *Create* - function / class                    | `option + enter og velg create ...`                     |                 |
 | -> *Auto import missing class/function/...*       | `option + enter og velge import`                        |                 |
-| *Navigate* to project structure                   | `F1`                                                    |                 |
+| *Navigate* to project structure                   | `cmd + 1`                                               | <br/>           |
 | -> Inside project structre create new file/folder | `cmd + n`                                               |                 |
-| *Finne klasser / functioner*                      | `cmd + (shift) + o`                                     |                 |
 | *Generate...* test / code                         | `høyre click -> generate `                              |                 |
 
 - Git verktøy:
@@ -34,14 +34,14 @@ weight: 997
     - Commit
     - Bytte branch
     - Resolve merge conflicts
-    - Commit historie 
+    - Commit historie
 
 - Plugins:
     - Git toolbox
     - Atom material icons
     - Databaser / s3 / osv. (betalt versjon - se Intellij Ultimate)
 
-- Scratch files (to, f.example prettify json)
+- Scratch files (to, f.example prettify json) `shift + cmd + n`
 
 - Debugging:
     1. Starte applikasjon i debug mode
