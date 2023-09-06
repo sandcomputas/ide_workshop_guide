@@ -28,12 +28,11 @@ weight: 999
     - Mac/Linux: legg `export PATH="/Users/<your username>/.local/bin:$PATH"` til i din shell configurasjon 
       fil. For mac/linux: `.bashrc` / `.zshrc`.
     - Windows: idk 🤷‍ (burde stå skrevet i terminalen rett etter dere har installert)
-  
 
 - Konfigurer Poetry ❗❗️❗️️:
 
   - Kjør: `poetry config virtualenvs.in-project true` i terminalen.
- 
+
   
 ## Kjøre koden 👩‍💻
 

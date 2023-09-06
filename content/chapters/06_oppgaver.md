@@ -6,7 +6,21 @@ weight: 995
 
 > _Her er noen oppgaver for å øve seg på ulike verktøy i PyCharm._
 
-## Oppgave 1
+*Husk at det er lov å bruke cheatsheetet her: [gfdg](/chapters/04_ide_walkthrough)*
+
+## Oppgave 1 - "Grave dypt" 
+
+> Mål: Bli kjent med å navigere med debuggeren.
+
+1. Åpne filen `tests/resources/test_calculation_resource.py` i PyCharm
+2. Sett et breakpoint på første linje i første test (`test_calculation_add`)
+3. Sett et breakpoint i `app/resources/calculation_resource.py` på linje 14
+4. Starte opp debuggeren 
+5. Bruk følgende kommandoer for å "grave" dere igjennom koden, prøv å kom helt ned til `app/models/calculation.py`.
+- Step into: `F7`
+- Step over: `F8`
+- Next breakpoint: `F9`
+
 
 ## Oppgave 2
 
