@@ -74,48 +74,21 @@ weight: 995
 
 > Mål: Få litt mer trening i å bruke debuggeren til å finne bugs
 
+1. Registrer deg og hent API nøkkel til applikasjonen på https://api.nasa.gov/
+2. Legg nøkkelen inn som environment variable i PyCharm (vil ikke ha nøkler i klar tekst)
+3. Kjør opp applikasjonen og gå til `localhost:8080/nasa.html`
+4. Her skal vi egentlig få opp en liste med asteroider som er farlig nærme jorden 😱, men noe går galt.
+5. Gå til `tests/resources/test_near_earth_asteroid_resource.py` og kjør testen 
+   1. Denne testen gjør kun et kall til endepunktet, og sørger for at vi ikke gjør en ekte request, vi **mocker** 
+      requsten. På denne måten kan vi kjøre så mange requests vi vil, men forutsigbar response. Den mockede 
+      responsen ligger i `tests/connectors/nasa_feed_response.json`.
+6. Fiks buggen, slik at testen passerer. Kjør så opp frontend igjen og verifiser at det faktisk gikk bra. 
 
 
+*Tips:*
+- Vi har begrenset antall request per time med nøkkelen vår (30 requests per time)
+- Derfor kan det være lurt å bruke testene til å debugge og prøve å finne løsning. Så kan man kjøre virkelig 
+  applikasjon for å verifisere at ting faktisk fungerer. 
 
 
-
-## Oppgave 3 - "Første bug" 🪲 (15min)
-
-[BRANCH: xxxxx]
-
-> Mål: 
-
-
----
-
-## Drafts
-
-### Struktur på oppgave del 
-
-Bør kanskje starte med a debugge unit tests - er kanskje endel enklere en resource tests?
-
-### Calculator 
-
-Fix bugs... mer kommer her 
-
-### Calculator 2 
-
-Litt mer avansert bug kanskje. Vi legger aldri verdien til i cache? Må kanskje være en enhets test og ikke en 
-resource. Eller vi kan ha en methode som henter ut hele cahcen også? 
-
-### NASA Near Earth Asteriods feed API
-
-> *Fix the test!*
-
-Når vi kaller endepunktet (/????) så vil APIet vårt gjøre et kall til NASAs API. Svaret vi får er ganske stort, 
-derfor cacher vi svaret, så å starte og kjøre APIet mange ganger vil være lite effektivt. I tillegg har APIet en 
-limit på hvor mange requests vi kan sende hver time, så vi må være smarte her. 
-
-En løsning for å komme rundt dette problemet og likevel kunne kjøre appen vår mange ganger og undersøke responsen er 
-ved å gjøre debuggingen ved å kjøre testen `/tests/connectors/test_feed`. Denne testen har mocket ut requesten - 
-slik at vi kan kjøre "kall" til APIet så mange ganger vi ønsker uten verken ventetid eller bekymringer for å nå 
-request limiten. 
-
-
-
-
+  
