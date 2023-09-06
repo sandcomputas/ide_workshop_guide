@@ -6,7 +6,7 @@ weight: 995
 
 > _Her er noen oppgaver for å øve seg på ulike verktøy i PyCharm._
 
-*Husk at det er lov å bruke cheatsheetet her: [gfdg](/chapters/04_ide_walkthrough)*
+*Husk at det er lov å bruke cheatsheetet her: [gfdg](/ide_workshop_guide/chapters/04_ide_walkthrough)*
 
 ## Oppgave 1 - "Grave dypt" 
 
