@@ -57,10 +57,10 @@ weight: 997
 
 Hotkeys for debugging:
 
-| Operation             | Hotkey             |
-|-----------------------|--------------------|
-| Set/remove breakpoint | `cmd + F8`         |
-| See all breakpoints   | `shift + cmd + F8` |
+| Operation             | Hotkey             |                     |
+|-----------------------|--------------------|---------------------|
+| Set/remove breakpoint | `cmd + F8`         | `ctrl + F8`         |
+| See all breakpoints   | `cmd + shift + F8` | `ctrl + shift + F8` |
 
 - Mulighet for å opprette nytt prosjekt fra Intellij / PyCharm.
 
