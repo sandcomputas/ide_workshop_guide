@@ -8,9 +8,11 @@ weight: 995
 
 *❗❗❗️Husk at det er lov å bruke cheatsheetet her: [cheatsheet](/ide_workshop_guide/chapters/04_ide_walkthrough)❗❗❗*
 
+*❗❗❗ Husk å commite før vi bytter branch ❗❗❗* 
+
 ## Oppgave 1 - "Grave dypt" 🪨 ⛏ (15min)
 
-[BRANCH: xxxxx]
+[BRANCH: oppgave1]
 
 > *Mål: Bli kjent med å navigere med debuggeren.*
 
@@ -31,14 +33,14 @@ weight: 995
 
 ## Oppgave 2 - "Dårlig kalkulator" 🧮 (15min)
 
-[BRANCH: xxxx]
+[BRANCH: oppgave2]
 
 > *Mål: Bruke debuggeren til å finne og fikse feil i kalkulatoren som gjør at testen vår feiler* 
 
 1. Kjøre alle testene (ikke debug), se hvilken som feiler 
 2. Kjøre den spesifikke testen som feiler i debug mode 
 3. Bruk breakpoints og step over `F8`, step into `F7` funksjonene for å finne og rette feilen. 
-4. Målet er å få alle testene til å passere (skal bare være behov for å endre en!)
+4. Målet er å få alle testene til å passere (skal bare være behov for å endre en ting!)
 
 *Tips:*
 - Bruk debuggeren til å utforske og inspiser variabler underveis for å prøve å finne hvor det går galt. 
@@ -46,7 +48,7 @@ weight: 995
 
 ## Oppgave 3 - "Kalkulatoren kan bare regne det samme en gang!?" (15min)
 
-[BRANCH: xxxxx]
+[BRANCH: oppgave3]
 
 1. Kalkulatoren vår har også en vakker frontend (`localhost:8080/calculator.html`)
 2. Noen brukere har rapportert at dersom de prøver å regne ut det samme regnestykket mer enn en gang så går ting galt
@@ -60,7 +62,7 @@ weight: 995
 
 ## Oppgave 4 - Conditional breakpoint (5min - kun felles gjennomgang)
 
-[BRANCH: xxxxx]
+[BRANCH: oppgave4]
 
 > Mål: Vise hvordan man kan bruke "conditional breakpoints"
 
@@ -70,7 +72,7 @@ weight: 995
 
 ## Oppgave 5 "No response from NASA API" (15min) 
 
-[BRANCH: xxxxx]
+[BRANCH: oppgave5]
 
 > Mål: Få litt mer trening i å bruke debuggeren til å finne bugs
 
@@ -80,7 +82,7 @@ weight: 995
 4. Her skal vi egentlig få opp en liste med asteroider som er farlig nærme jorden 😱, men noe går galt.
 5. Gå til `tests/resources/test_near_earth_asteroid_resource.py` og kjør testen 
    1. Denne testen gjør kun et kall til endepunktet, og sørger for at vi ikke gjør en ekte request, vi **mocker** 
-      requsten. På denne måten kan vi kjøre så mange requests vi vil, men forutsigbar response. Den mockede 
+      requsten. På denne måten kan vi kjøre så mange requests vi vil, med forutsigbar response. Den mockede 
       responsen ligger i `tests/connectors/nasa_feed_response.json`.
 6. Fiks buggen, slik at testen passerer. Kjør så opp frontend igjen og verifiser at det faktisk gikk bra. 
 
