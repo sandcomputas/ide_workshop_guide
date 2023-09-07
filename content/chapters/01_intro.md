@@ -27,7 +27,6 @@ rammeverk. Noen av de mest populære er:
   - Step over / step-into 
 - Database integration
 - Other plug-ins (s3)
-- Mocking / testing
 
 ## Schedule
 

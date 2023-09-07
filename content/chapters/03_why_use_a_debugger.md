@@ -22,16 +22,6 @@ Hva er galt med `system.out.println("Her er jeg nå")`?
 
 ## Eksempler 
 
-```python
-async def save_datasett(self, datasett: Datasett) -> Datasett:
-    logger.info("Datasett:")
-    logger.info(datasett)
-    logger.info("Headers:")
-    logger.info(self.headers)
-    logger.info("URL:")
-    logger.info(self.url)
-    return self._handle(Datasett, await self.client.post("datasett", json=marshall(datasett)))
-```
 
 ```python
 class AuthMiddleware:
