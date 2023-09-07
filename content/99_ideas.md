@@ -1,7 +1,6 @@
 ---
 title: Ideas 🧐💭
-weight: 10
-
+weight: 10 
 ---
 
 > *just for planning...*

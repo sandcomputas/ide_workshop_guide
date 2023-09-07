@@ -1,7 +1,7 @@
 ---
 title: IDE gjennomgang 🚶‍♂️ 👩‍🏫
 #toc: true
-weight: 997
+weight: 996
 ---
 
 > Vi starter med en liten gjennomgang av nyttige triks, deretter skal dere få prøve dere selv.
