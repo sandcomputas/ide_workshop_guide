@@ -8,25 +8,25 @@ weight: 997
 
 - Generelle IDE verktøy:
 
-| Operation                                         | Hotkey                                                  | Windows hotkeys | 
-|---------------------------------------------------|---------------------------------------------------------|-----------------|
-| *TODO* (nyttig som "notat-verktøy" i koden)       | `I venstre meny`                                        |                 |
-| *Søk*                                             | `shift shift`                                           |                 |
-| *Finne klasser / files*                           | `cmd + (shift) + o`                                     |                 |
-| *Find (text) in files*                            | `shift + cmd + f`                                       |                 |
-| *Go to* definition / usages                       | `cmd + b / scroll click`                                |                 |
-| *Go back and forth*                               | `option + cmd + høyre/venstre pil` / `mus frem/tilbake` |                 |
-| *Rename* - variable / function / class            | `shift + F6`                                            |                 |
-| *Move* - / function / class                       | `F6`                                                    |                 |
-| *Move file into folder and auto refactor.*        |                                                         |                 |
-| *Optimize imports*                                | `ctrl + option + o`                                     |                 |
-| *Format file / prettify*                          | `option + cmd + l`                                      |                 |
-| *Context Actions*                                 | `option + enter`                                        |                 |
-| -> *Create* - function / class                    | `option + enter og velg create ...`                     |                 |
-| -> *Auto import missing class/function/...*       | `option + enter og velge import`                        |                 |
-| *Navigate* to project structure                   | `cmd + 1`                                               | <br/>           |
-| -> Inside project structre create new file/folder | `cmd + n`                                               |                 |
-| *Generate...* test / code                         | `høyre click -> generate `                              |                 |
+| Operation                                         | MacOS Hotkey                                            | Windows hotkeys                  | 
+|---------------------------------------------------|---------------------------------------------------------|----------------------------------|
+| *TODO* (nyttig som "notat-verktøy" i koden)       | `I venstre meny`                                        | <--                              |
+| *Søk*                                             | `shift shift`                                           | `shift shift`                    |
+| *Finne klasser / files*                           | `cmd + (shift) + o`                                     | `ctrl + (shift) + n`             |
+| *Find (text) in files*                            | `shift + cmd + f`                                       | `ctrl + shift + r`               |
+| *Go to* definition / usages                       | `cmd + b / scroll click`                                | `ctrl + b`                       |
+| *Go back and forth*                               | `option + cmd + høyre/venstre pil` / `mus frem/tilbake` | `ctrl + alt + høyre/venstre pil` |
+| *Rename* - variable / function / class            | `shift + F6`                                            | `shift + F6`                     |
+| *Move* - / function / class                       | `F6`                                                    | `F6`                             |
+| *Move file into folder and auto refactor.*        | `flytt i menyen`                                        | <--                              |
+| *Optimize imports*                                | `ctrl + option + o`                                     | `ctrl + alt + o`                 |
+| *Format file / prettify*                          | `option + cmd + l`                                      | `ctrl + alt + l`                 |
+| *Context Actions*                                 | `option + enter`                                        | `alt + enter`                    |
+| -> *Create* - function / class                    | `option + enter og velg create ...`                     | `alt + enter og velge create`    |
+| -> *Auto import missing class/function/...*       | `option + enter og velge import`                        | `alt + enter og velge import`    |
+| *Navigate* to project structure                   | `cmd + 1`                                               | `alt + 1` (?)                    |
+| -> Inside project structre create new file/folder | `cmd + n`                                               | `ctrl + n` (?)                   |
+| *Generate...* test / code                         | `høyre click -> generate `                              | <--                              |
 
 - Git verktøy:
     - Git blame 🙈
@@ -63,3 +63,7 @@ Hotkeys for debugging:
 | See all breakpoints   | `shift + cmd + F8` |
 
 - Mulighet for å opprette nytt prosjekt fra Intellij / PyCharm.
+
+Hotkeys fullstending
+cheatsheet: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
+
